@@ -11,7 +11,7 @@ function Divs(props) {
             {arr.map((el) => {
                 let color = '#' + (Math.random().toString(16) + '000000').substring(2,8).toUpperCase()
                 let bgcolor = '#' + (Math.random().toString(16) + '000000').substring(2,8).toUpperCase()
-                if(color = bgcolor){
+                if(color == bgcolor){
                     color = '#' + (Math.random().toString(16) + '000000').substring(2,8).toUpperCase()
                 }
                 return(
